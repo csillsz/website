@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #40514E;
+}
+
+hr {
+  border: dotted 15px;
+  border-bottom: 0;
+  border-color: #dfd3c3;
+  width: 100px;
+  margin: 100px auto;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  line-height: 2;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #411f1f;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin-top: 0;
+  color: #411f1f;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #c7b198;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #596e79;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #c7b198;
+  margin-bottom: 0;
+  margin-top: 50px;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  margin: 50px;
+  background: #F0ECE3;
+  background-image: -webkit-linear-gradient(top, #F0ECE3, #C7B198);
+  background-image: -moz-linear-gradient(top, #F0ECE3, #C7B198);
+  background-image: -ms-linear-gradient(top, #F0ECE3, #C7B198);
+  background-image: -o-linear-gradient(top, #F0ECE3, #C7B198);
+  background-image: linear-gradient(to bottom, #F0ECE3, #C7B198);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  padding: 10px;
+  border: solid #C7B198 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.chili {
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.comp {
+  border-radius: 100%;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.copyright {
+  margin: 50px auto 0;
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #f0ece3;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: normal;
+}
