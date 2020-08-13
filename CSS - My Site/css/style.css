@@ -4,13 +4,14 @@ body {
   font-family: 'Merriweather', serif;
   font-size: 1rem;
   color: #40514E;
+  line-height: 2;
 }
 
 hr {
   border: dotted 15px;
   border-bottom: 0;
   border-color: #dfd3c3;
-  width: 100px;
+  width: 7%;
   margin: 100px auto;
 }
 
@@ -28,6 +29,7 @@ h2 {
   font-size: 2rem;
   margin-top: 0;
   color: #411f1f;
+  padding: 10px 0;
 }
 
 h3 {
@@ -41,6 +43,11 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+}
+
+.contact-me {
+  width: 40%;
+  margin: auto;
 }
 
 .bottom-cloud {
@@ -59,7 +66,7 @@ a {
 
 .btn {
   display: inline-block;
-  margin: 50px;
+  margin-top: 50px;
   background: #F0ECE3;
   background-image: -webkit-linear-gradient(top, #F0ECE3, #C7B198);
   background-image: -moz-linear-gradient(top, #F0ECE3, #C7B198);
@@ -101,6 +108,16 @@ a {
 .footer-link {
   display: inline-block;
   padding: 0 50px;
+  font-size: 2rem;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px auto;
 }
 
 .skill-row {
